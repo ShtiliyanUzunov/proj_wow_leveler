@@ -30,10 +30,9 @@ def is_in_combat():
     save_dbg_img(combat_status_img, 'debug/combat_status.png')
     combat_status_img = np.array(combat_status_img)
 
-    not_in_combat_vector = np.array([150, 150, 150])
     avg_diff_vector = np.average(inCombat_image - combat_status_img, axis=(0, 1))
 
-    if np.sum(avg_diff_vector) < 50:
+    if np.sum(avg_diff_vector) < 350:
         return True
 
     return False

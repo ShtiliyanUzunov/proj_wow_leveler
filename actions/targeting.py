@@ -33,3 +33,5 @@ def search_for_target_forward():
 
     return False
 
+def remove_target():
+    pyautogui.press('esc')

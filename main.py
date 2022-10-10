@@ -17,16 +17,5 @@ def main():
         update_state()
         apply_leveling_policy()
 
-        # ensure_character_is_ok()
-        # cast_healing_wave()
-        # search_for_target()
-        # cast_lightning_bolt()
-        # cast_water_shield()
-        # try_to_mark_target_with_tab()
-        # walk_forward_n_seconds(1)
-        # turn_n_degrees(180)
-        # get_hp_and_mana()
-        # try_to_get_player_position()
-
 if __name__ == "__main__":
     main()
